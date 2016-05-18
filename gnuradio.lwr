@@ -21,7 +21,7 @@ depends: make boost fftw cppunit swig gsl uhd alsa git python cheetah wxpython n
 category: common
 satisfy_deb: gnuradio-dev
 source: git://http://www.gnuradio.org/git/gnuradio.git
-gitbranch: master
+gitbranch: v3.7.9.2
 gitargs: --recursive
 var config_opt = " -DENABLE_DOXYGEN=$builddocs "
 inherit: cmake
