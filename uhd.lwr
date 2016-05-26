@@ -20,8 +20,8 @@
 category: hardware
 depends: make swig python python-requests libusb git cmake mako boost gsl numpy cppunit fftw
 satisfy_deb: uhd-host && libuhd-dev
-source: git://https://github.com/EttusResearch/uhd.git
-gitbranch: release_003_009_004
+source: git://node@192.168.1.134:~/pybombs/uhd
+gitbranch: rfnoc-devel
 #gitbranch: master
 #gitbranch: rfnoc-devel
 inherit: cmake
