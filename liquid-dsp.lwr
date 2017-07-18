@@ -19,7 +19,18 @@
 
 category: application
 depends: 
-source: git://https://github.com/miek/inspectrum.git
+source: git://https://github.com/jgaeddert/liquid-dsp.git
 gitbranch: master
-inherit: cmake
-description: recorded data browser
+configuredir: build
+makedir: build
+
+configure {
+    ./bootstrap.sh 
+    ./configure
+}
+make {
+    make
+}
+install {
+    sudo make install
+}
