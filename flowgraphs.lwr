@@ -28,5 +28,5 @@ make {
     
 }
 install {
-    touch /opt/fgs
+    touch $prefix/bin/fgs
 }
