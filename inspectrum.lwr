@@ -22,4 +22,6 @@ depends:
 source: git://https://github.com/miek/inspectrum.git
 gitbranch: master
 inherit: cmake
+configuredir: build
+makedir: build
 description: recorded data browser
