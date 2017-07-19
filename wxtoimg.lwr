@@ -28,6 +28,6 @@ make {
     
 }
 install {
-	cp -v usr/local/bin/wxtoimg $prefix/bin
+    cp -v usr/local/bin/wxtoimg $prefix/bin
     touch $prefix/bin/wx_to_img
 }
