@@ -29,5 +29,8 @@ make {
 }
 install {
     ./build_medet.sh
+
+    cp -v medet $prefix/bin
+
     touch $prefix/bin/meteordecoder
 }
