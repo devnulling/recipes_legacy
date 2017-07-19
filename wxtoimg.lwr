@@ -29,5 +29,6 @@ make {
 }
 install {
     cp -v src/wxtoimg/local/bin/wxtoimg $prefix/bin
+    
     touch $prefix/bin/check_wxtoimg
 }
