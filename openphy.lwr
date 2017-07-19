@@ -29,6 +29,7 @@ make {
     make
 }
 install {
-	make install
+    make install
+    cp -v ltedecode $prefix/bin
     touch $prefix/bin/openphy.ck
 }
