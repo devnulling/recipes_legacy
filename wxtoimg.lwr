@@ -19,7 +19,7 @@
 
 category: application
 depends: 
-source: wget://http://www.wxtoimg.com/downloads/wxtoimg_2.10.11-1_i386.deb
+source: wget://http://www.wxtoimg.com/downloads/wxtoimg-linux64-2.10.11-1.tar.gz
 
 configure {
    
@@ -28,5 +28,6 @@ make {
     
 }
 install {
-    
+	cp -v usr/local/bin/wxtoimg $prefix/bin
+    touch $prefix/bin/wx_to_img
 }
