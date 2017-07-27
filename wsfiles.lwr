@@ -19,7 +19,7 @@
 
 category: application
 depends: 
-source: wget://http://192.168.1.102:8000/files.tgz 
+source: wget://http://192.168.1.14:8000/files.tgz 
 
 configure {
    
