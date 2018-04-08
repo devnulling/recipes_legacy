@@ -20,7 +20,7 @@
 depends: make boost fftw cppunit swig gsl uhd alsa git python cheetah wxpython numpy lxml pygtk pycairo cmake pyqt4 pyqwt5 gcc apache-thrift liblog4cpp
 category: common
 satisfy_deb: gnuradio-dev
-source: git://github.com/gnuradio/gnuradio.git
+source: git://https://github.com/gnuradio/gnuradio.git
 gitbranch: master
 gitrev: v3.7.12.0
 gitargs: --recursive
