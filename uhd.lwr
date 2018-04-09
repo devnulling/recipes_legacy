@@ -22,7 +22,7 @@ depends: make swig python python-requests libusb git cmake mako boost gsl numpy 
 satisfy_deb: uhd-host && libuhd-dev
 source: git://https://github.com/EttusResearch/uhd.git
 gitbranch: master
-gitrev: release_003_009_007
+gitrev: release_003_010_003_000
 inherit: cmake
 configuredir: host/build
 makedir: host/build
