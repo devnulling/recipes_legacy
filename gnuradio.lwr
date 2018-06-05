@@ -22,7 +22,7 @@ category: common
 satisfy_deb: gnuradio-dev
 source: git://https://github.com/gnuradio/gnuradio.git
 gitbranch: master
-gitrev: v3.7.10.2
+gitrev: maint-3.7
 gitargs: --recursive
 var config_opt = " -DENABLE_DOXYGEN=$builddocs "
 inherit: cmake
